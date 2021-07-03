@@ -1,0 +1,63 @@
+*{
+    margin:0;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+}
+
+.logo_img{
+    display: grid;
+    justify-content: center;
+    padding-top: 0%;
+}
+
+ul{
+    list-style: none;   
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar{
+    background-color: #AC7B7D;
+    overflow: hidden;    
+}
+
+ul li a{
+    padding: 2rem;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: white;
+}
+
+#about_me{
+    overflow: hidden;
+    height: 50%;
+    width: 75%
+}
+
+#about_section, 
+#project_section, 
+#resume_section{
+    background-color: grey;
+}
+
+#skills_section,
+#contact_section{
+    background-color: grey;
+}
+
+section{
+    padding-top: 10px;
+}
+
+.about_text{
+    text-align: right;
+}
